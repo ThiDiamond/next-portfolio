@@ -1,0 +1,42 @@
+.dark-slate-gray-text {
+  color: #363054;
+}
+.slate-gray-text {
+  color: #8a6a8d;
+}
+
+.slate-blue-text {
+  color: #8a7dc1;
+}
+
+.light-steel-blue-text {
+  color: #9da9dc;
+}
+
+.light-steel-text {
+  color: #c1a1c3;
+}
+
+.dark-slate-gray {
+  background-color: #363054;
+}
+
+.btn-default {
+  background-color: #363054 !important;
+}
+
+.inactive {
+  background-color: #c1a1c3 !important;
+}
+
+.btn-primary {
+  background-color: #363054 !important;
+}
+
+.primary-color {
+  background-color: #363054 !important;
+}
+
+.btn-rounded {
+  border-radius: 10em;
+}
