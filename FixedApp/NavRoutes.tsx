@@ -47,7 +47,7 @@ const NavRoutes: FC = ({ children }) => {
             <MDBNavbarToggler onClick={handleTogglerClick} />
             <MDBCollapse isOpen={collapsed} navbar>
               <MDBNavbarNav left>
-                <NavLink to="/home" label={navHome[language]} />
+                <NavLink to="/" label={navHome[language]} />
                 <NavLink to="/about" label={navAbout[language]} />
                 <NavLink to="/skills" label={navSkills[language]} />
                 <NavLink to="/portfolio" label="Portfolio" />
