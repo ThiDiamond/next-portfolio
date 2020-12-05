@@ -43,7 +43,7 @@ const Project: FC<Props> = ({
           height={250}
           width={400}
           src={image}
-          alt={aly}
+          alt={alt}
           className="img-fluid"
         />
         <a href={link}>
