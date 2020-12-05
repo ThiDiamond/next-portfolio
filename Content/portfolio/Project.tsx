@@ -12,6 +12,7 @@ import React, { FC } from 'react';
 export type Props = {
   image: string;
   link?: string;
+  alt: string;
   title?: string;
   description?: string;
   codeLink?: string;
@@ -33,6 +34,7 @@ const Project: FC<Props> = ({
   iconName,
   iconColor,
   fab,
+  alt,
 }) => {
   return (
     <MDBCol md="6" xl="5" className="mb-4">
@@ -41,7 +43,7 @@ const Project: FC<Props> = ({
           height={250}
           width={400}
           src={image}
-          alt={link}
+          alt={aly}
           className="img-fluid"
         />
         <a href={link}>

@@ -22,6 +22,7 @@ const Projects: FC = () => {
           iconColor="#639a58"
           title="API Challenge Bossabox"
           image="/code.jpg"
+          alt="Code image"
           codeLink="https://github.com/ThiDiamond/BossaBoxBackend/"
           docLink="https://thidiamond-bossabox-api.herokuapp.com/docs"
         />
@@ -30,6 +31,7 @@ const Projects: FC = () => {
           iconName="python"
           iconColor="#a2ce24"
           title="URI Online Judge Challenges"
+          alt="Snake image"
           image="/python.jpg"
           codeLink="https://github.com/ThiDiamond/Uri"
         />
@@ -39,6 +41,7 @@ const Projects: FC = () => {
           iconColor="#00D8FF"
           title="Real Estate Website"
           image="/house.jpg"
+          alt="House image"
           codeLink="https://github.com/ThiDiamond/RealEstate/"
           siteLink="http://thidiamond.tech/"
         />
@@ -47,6 +50,7 @@ const Projects: FC = () => {
           iconName="lock"
           iconColor="#FDAC21"
           title="JWT Auth App"
+          alt="Lock image"
           image="/lock.jpg"
           codeLink="https://github.com/ThiDiamond/jwt-frontend"
           siteLink="https://thidiamond-jwt-auth.netlify.app/"
@@ -54,6 +58,7 @@ const Projects: FC = () => {
         <Project
           iconName="react"
           fab
+          alt="Buildbox image"
           iconColor="#00D8FF"
           title="Buildbox Web Challenge"
           image="/buildbox.jpeg"

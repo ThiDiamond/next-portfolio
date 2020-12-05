@@ -6,9 +6,10 @@ export type Props = {
   image: string;
   link: string;
   title: string;
+  alt: string;
 };
 
-const ContentSingle: FC<Props> = ({ image, link, title }) => {
+const ContentSingle: FC<Props> = ({ image, link, title, alt }) => {
   return (
     <MDBCol md="6" xl="5" className="mb-4">
       <MDBView className="overlay rounded z-depth-2 mx-4" waves>
@@ -16,7 +17,7 @@ const ContentSingle: FC<Props> = ({ image, link, title }) => {
           height={250}
           width={400}
           src={image}
-          alt={link}
+          alt={alt}
           className="img-fluid"
         />
         <a href={link}>

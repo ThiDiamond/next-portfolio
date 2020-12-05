@@ -16,7 +16,7 @@ const Intro: FC = () => {
   const { language } = useLanguage();
   return (
     <>
-      <MDBView src="galaxy.jpg">
+      <MDBView src="galaxy.jpg" title="Galaxy background">
         <MDBMask className="rgba-black-strong d-flex justify-content-center align-items-center">
           <MDBContainer>
             <MDBRow>
