@@ -6,8 +6,6 @@ import {
   MDBNavbarBrand,
   MDBNavbarNav,
   MDBNavbarToggler,
-  MDBNavItem,
-  MDBNavLink,
 } from 'mdbreact';
 import React, { useState, FC } from 'react';
 import { navAbout, navHome, navSkills, navCredits } from './content';
