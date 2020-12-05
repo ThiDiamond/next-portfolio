@@ -16,7 +16,7 @@ const ContentSingle: FC<Props> = ({ image, link, title }) => {
           height={250}
           width={400}
           src={image}
-          alt=""
+          alt={link}
           className="img-fluid"
         />
         <a href={link}>
