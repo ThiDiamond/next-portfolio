@@ -18,6 +18,16 @@ const Projects: FC = () => {
       <MDBRow className="d-flex justify-content-center">
         <Project
           fab
+          iconName="react"
+          iconColor="#363054"
+          title="My Website, builded with Next.JS"
+          image="/galaxy.jpg"
+          alt="Galaxy image"
+          codeLink="https://github.com/ThiDiamond/next-portfolio"
+        />
+
+        <Project
+          fab
           iconName="node-js"
           iconColor="#639a58"
           title="API Challenge Bossabox"
